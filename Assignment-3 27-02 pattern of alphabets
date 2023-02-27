@@ -1,0 +1,11 @@
+//Assignment-3 print the capital alphabets in a pattern
+#include<stdio.h>
+main(){
+	int i,j;
+	for(i=65;i<=90;i++)
+	{
+		for(j=65;j<=i;j++)
+		printf("%c ",j);
+		printf("\n");
+	}
+}
